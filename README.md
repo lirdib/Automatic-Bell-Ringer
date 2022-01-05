@@ -1,2 +1,4 @@
 # Automatic-Bell-Ringer
-This project is built on arduino. It includes ds1302 clock module which keeps track of the time and allows arduino to automatically ring the school bell when the preditermined times arrive.
+
+Welcome to Arduino automatic bell ringer project.
+I built this project as during high school. The idea behind this project is to ring the school bells automaticaly when the classes finish. Time is set automatically as is described on the code. After the first code upload the time is kept by ds1302 time module. When the exact time arrives, arduino triggers one of it's ports high for a few seconds. This signal is connected to a relay's inductor pins. The common and NC pins of realy are connected to the 220V or whatever the voltage is in you country. I have also added a push button, so if there is any need to ring the bells out of schedule you can ring them by pressing and holding the button. When button is released the ringing stops and the schedule continues noramly.
